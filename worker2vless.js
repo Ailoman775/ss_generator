@@ -1,4 +1,5 @@
 // @netsec
+// This code is for Cloudflare workers.
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:

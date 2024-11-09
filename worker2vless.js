@@ -2,7 +2,7 @@
 // This code is for Cloudflare workers.
 import { connect } from 'cloudflare:sockets';
 
-// How to generate your own UUID:
+// How to generate your own unique UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 // Or generate it from V2rayN. Please make sure it is unique for you to know.
 let userID = 'decade00-0000-4000-a000-000000000000';
